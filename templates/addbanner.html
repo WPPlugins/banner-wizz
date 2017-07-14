@@ -1,0 +1,42 @@
+<form action="{action_m}" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table  height="305" border="0" align="center" cellpadding="5" cellspacing="0"  class="widefat" style="width:700px;">
+    <thead>
+	<tr>
+      <th colspan="2"><div align="left"><strong>{up_title}</strong></div>
+        </td>    </tr>
+	</thead>
+    <tr>
+      <td width="50%">Keywords to search in post (separated by comma) </td>
+      <td width="50%"><label>
+        <textarea name="keywords" cols="30" rows="4" id="keywords">{keywords_m}</textarea>
+        <br />
+      recomended max 5 words. </label></td>
+    </tr>
+    <tr>
+      <td>Banner title </td>
+      <td><label>
+        <input name="title" type="text" id="title" value="{title_m}" size="30"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Banner link </td>
+      <td><input name="bannerlink" type="text" id="bannerlink" value="{link_m}" size="30"/></td>
+    </tr>
+    <tr>
+      <td>Banner file </td>
+      <td><label>
+        <input name="file" type="file" size="30" />
+      </label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">{banner_image_m}</div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><label>
+        <input type="submit" name="Submit" value="Do it" />
+      </label></td>
+    </tr>
+  </table>
+</form>
+
